@@ -14,7 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let charmender = Pokemon(name: "Charmender", pokedexId: 4)
-    }
+        
+       }
 
     
  
