@@ -88,6 +88,10 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     
+    @IBAction func musicBtnPressed(_ sender: UIButton) {
+    }
+    
+    
     
     
     
