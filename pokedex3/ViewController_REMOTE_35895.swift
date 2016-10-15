@@ -15,16 +15,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
-
-=======
         
         collection.dataSource = self
         collection.delegate = self
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
->>>>>>> foolaround
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PokeCell", for: indexPath) as? PokeCell {
             

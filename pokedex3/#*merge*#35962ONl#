@@ -3,7 +3,7 @@
 //  pokedex3
 //
 //  Created by G on 09/10/2016.
-//  Copyright ¬© 2016 erdgabios. All rights reserved.
+//  Copyright Å© 2016 erdgabios. All rights reserved.
 //
 
 import UIKit
@@ -15,16 +15,12 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
-
-=======
         
         collection.dataSource = self
         collection.delegate = self
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
->>>>>>> foolaround
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PokeCell", for: indexPath) as? PokeCell {
             
@@ -61,4 +57,3 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
 
 }
-
