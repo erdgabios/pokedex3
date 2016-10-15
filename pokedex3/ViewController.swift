@@ -12,8 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let charmender = Pokemon(name: "Charmender", pokedexId: 4)
+
         
        }
 
