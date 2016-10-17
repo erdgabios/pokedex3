@@ -21,7 +21,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vb0-KI-HzN">
@@ -148,7 +148,7 @@
                         <viewControllerLayoutGuide type="bottom" id="LHO-Km-cbe"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2b4-GA-8E7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Epo-9C-47g">
@@ -159,6 +159,9 @@
                                             <constraint firstAttribute="height" constant="30" id="J9a-k9-iVW"/>
                                         </constraints>
                                         <state key="normal" image="back.png"/>
+                                        <connections>
+                                            <action selector="backBtnPressed:" destination="F1G-nm-CEw" eventType="touchUpInside" id="Y67-tL-brs"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ivysaur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQg-IV-ZUI">
                                         <constraints>
@@ -179,8 +182,7 @@
                                     <constraint firstAttribute="bottom" secondItem="Nhk-EX-aj9" secondAttribute="bottom" constant="18" id="t6A-pg-3NS"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cHC-vI-4Us">
-                                <frame key="frameInset" minX="16" minY="73" width="374" height="254"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cHC-vI-4Us">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hlX-Ak-bd9">
                                         <subviews>
@@ -394,7 +396,18 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="attackLbl" destination="JHa-7v-Neb" id="HaH-48-Cje"/>
+                        <outlet property="currentEvoImg" destination="2l2-Ix-i5p" id="V37-3y-MRo"/>
+                        <outlet property="defenseLbl" destination="A0E-H4-bYU" id="MIl-F8-kSJ"/>
+                        <outlet property="descriptionLbl" destination="SX8-zO-hGa" id="i3V-NH-yDY"/>
+                        <outlet property="evoLbl" destination="gLp-of-XIz" id="7nn-0G-wfa"/>
+                        <outlet property="heightLbl" destination="via-GU-Xsh" id="IO7-3t-LJx"/>
+                        <outlet property="mainImg" destination="fed-jW-IQv" id="ire-kg-jM5"/>
                         <outlet property="nameLbl" destination="OQg-IV-ZUI" id="NsU-Gc-zoP"/>
+                        <outlet property="nextEvoImg" destination="Vbu-dM-7Ub" id="Cfc-m8-iNU"/>
+                        <outlet property="pokedexLbl" destination="1ii-oj-ZJ7" id="Hej-v4-RuL"/>
+                        <outlet property="typeLbl" destination="pB2-hp-get" id="Z9k-2u-OR0"/>
+                        <outlet property="weightLbl" destination="P3d-Pn-SPC" id="ba3-Rt-hRp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ft-07-nGp" userLabel="First Responder" sceneMemberID="firstResponder"/>
