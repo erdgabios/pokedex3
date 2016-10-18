@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0687BD581DB6BC7B00D7077C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0687BD571DB6BC7B00D7077C /* Constants.swift */; };
 		06976D2F1DB2D4AD00FFEC85 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06976D2E1DB2D4AD00FFEC85 /* csv.swift */; };
 		06976D311DB2DC9F00FFEC85 /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06976D301DB2DC9F00FFEC85 /* pokemon.ttf */; };
 		06976D361DB2E16200FFEC85 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06976D351DB2E16200FFEC85 /* music.mp3 */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0687BD571DB6BC7B00D7077C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		06976D2E1DB2D4AD00FFEC85 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		06976D301DB2DC9F00FFEC85 /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pokemon.ttf; path = pokedex3/pokemon.ttf; sourceTree = "<group>"; };
 		06976D351DB2E16200FFEC85 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				06976D2E1DB2D4AD00FFEC85 /* csv.swift */,
+				0687BD571DB6BC7B00D7077C /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				0697A4151DAA3047002D6A70 /* ViewController.swift in Sources */,
 				0697A4131DAA3047002D6A70 /* AppDelegate.swift in Sources */,
 				06976D3A1DB3B6A000FFEC85 /* PokemonDetailVC.swift in Sources */,
+				0687BD581DB6BC7B00D7077C /* Constants.swift in Sources */,
 				0697A4281DAD8881002D6A70 /* Pokemon.swift in Sources */,
 				06976D2F1DB2D4AD00FFEC85 /* csv.swift in Sources */,
 			);
@@ -335,6 +339,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -385,6 +390,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -414,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6437E9D25E0D11EB7D31A7F4 /* Pods-pokedex3.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B9F42LDLFJ;
 				INFOPLIST_FILE = pokedex3/Info.plist;
@@ -428,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BABD0235CCB3C0E77798E481 /* Pods-pokedex3.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B9F42LDLFJ;
 				INFOPLIST_FILE = pokedex3/Info.plist;
